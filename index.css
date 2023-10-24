@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+  background-image: url(snow.png);
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  margin: auto;
+  max-width: 80%;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+#increment-btn {
+  background: orangered;
+}
+#save-btn {
+  background: green;
+}
+#increment-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(188, 93, 93, 0.24);
+  cursor: pointer;
+}
+#save-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(30, 136, 97, 0.24);
+  cursor: pointer;
+}
